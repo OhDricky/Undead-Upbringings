@@ -1,0 +1,7 @@
+{
+  "entity.undeadupbringings.bouldering": "Bouldering",
+
+  "subtitles.entity.undeadupbringings.bouldering.ambient" : "Bouldering groans",
+  "subtitles.entity.undeadupbringings.bouldering.hurt" : "Bouldering hurts",
+  "subtitles.entity.undeadupbringings.bouldering.death" : "Bouldering dies"
+}

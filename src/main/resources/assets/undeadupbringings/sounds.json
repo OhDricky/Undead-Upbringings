@@ -1,0 +1,23 @@
+{
+  "bouldering_ambient": {
+    "subtitle": "subtitles.entity.undeadupbringings.bouldering.ambient",
+    "sounds": [
+      "undeadupbringings:mob/bouldering/say1",
+      "undeadupbringings:mob/bouldering/say2",
+      "undeadupbringings:mob/bouldering/say3"
+    ]
+  },
+  "bouldering_hurt": {
+    "subtitle": "subtitles.entity.undeadupbringings.bouldering.hurt",
+    "sounds": [
+      "undeadupbringings:mob/bouldering/hurt1",
+      "undeadupbringings:mob/bouldering/hurt2"
+    ]
+  },
+  "bouldering_death": {
+    "subtitle": "subtitles.entity.undeadupbringings.bouldering.death",
+    "sounds": [
+      "undeadupbringings:mob/bouldering/death"
+    ]
+  }
+}
