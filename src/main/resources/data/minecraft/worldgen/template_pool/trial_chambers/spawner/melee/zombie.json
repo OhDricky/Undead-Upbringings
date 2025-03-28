@@ -3,6 +3,17 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:trial_chambers/spawner/melee/zombie",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "minecraft:trial_chambers/spawner/melee/bouldering",
         "processors": {
           "processors": []

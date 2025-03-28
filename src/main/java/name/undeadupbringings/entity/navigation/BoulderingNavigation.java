@@ -36,11 +36,15 @@ public class BoulderingNavigation extends MobNavigation {
         }
 
     }
+
     public void tick() {
         if (this.targetPos != null) {
-            if (!this.targetPos.isWithinDistance(this.entity.getPos(), this.entity.getWidth()) && (!(this.entity.getY() > (double) this.targetPos.getY()) || !BlockPos.ofFloored(this.targetPos.getX(), this.entity.getY(), this.targetPos.getZ()).isWithinDistance(this.entity.getPos(),this.entity.getWidth()))) {
+            if (!this.targetPos.isWithinDistance(this.entity.getPos(),
+                    this.entity.getWidth()) && (!(this.entity.getY() > (double) this.targetPos.getY())
+                    || !BlockPos.ofFloored(this.targetPos.getX(), this.entity.getY(), this.targetPos.getZ()).isWithinDistance(this.entity.getPos(),
+                    this.entity.getWidth())))
                 this.entity.getMoveControl().moveTo(this.targetPos.getX(), this.targetPos.getY(), this.targetPos.getZ(), this.speed);
-            } else {
+            else {
                 this.targetPos = null;
             }
             super.tick();

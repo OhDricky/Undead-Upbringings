@@ -3,9 +3,9 @@
 	"id": "undead-upbringings",
 	"version": "${version}",
 	"name": "Undead Upbringings",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Minecraft Fabric mod that seeks to expand on everything undead!",
 	"authors": [
-		"Me!"
+		"Dricky"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -29,6 +29,7 @@
 			"environment": "client"
 		}
 	],
+	"accessWidener" : "undeadupbringings.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.4",

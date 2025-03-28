@@ -27,7 +27,7 @@ public class BoulderingEntity extends ZombieEntity {
                 .add(EntityAttributes.MOVEMENT_SPEED, 0.23F)
                 .add(EntityAttributes.ATTACK_DAMAGE, 5.0F)
                 .add(EntityAttributes.ARMOR, 3.0F)
-                .add(EntityAttributes.MAX_HEALTH, 30.0F)
+                .add(EntityAttributes.MAX_HEALTH, 26.0F)
                 .add(EntityAttributes.ATTACK_KNOCKBACK, 1.75f)
                 .add(EntityAttributes.SPAWN_REINFORCEMENTS);
     }

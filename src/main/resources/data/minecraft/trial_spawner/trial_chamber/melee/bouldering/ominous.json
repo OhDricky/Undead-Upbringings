@@ -15,7 +15,7 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:undeadupbringings:bouldering"
+          "id": "undeadupbringings:bouldering"
         },
         "equipment": {
           "loot_table": "minecraft:equipment/trial_chamber_melee",
