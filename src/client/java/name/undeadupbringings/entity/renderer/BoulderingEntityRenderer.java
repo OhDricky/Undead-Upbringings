@@ -2,8 +2,6 @@ package name.undeadupbringings.entity.renderer;
 
 import name.undeadupbringings.UndeadUpbringings;
 import name.undeadupbringings.entity.mob.BoulderingEntity;
-import name.undeadupbringings.entity.renderer.model.BoulderingEntityModel;
-import name.undeadupbringings.entity.renderer.model.ModModelRegistry;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.entity.EntityRendererFactory;
@@ -22,12 +20,12 @@ public class BoulderingEntityRenderer extends ZombieBaseEntityRenderer<Boulderin
     private static final Identifier TEXTURE = Identifier.of(UndeadUpbringings.MOD_ID, "textures/entity/mob/bouldering.png");
 
     public BoulderingEntityRenderer(EntityRendererFactory.Context context) {
-        this(context, EntityModelLayers.ZOMBIE,
-                EntityModelLayers.ZOMBIE_BABY,
-                EntityModelLayers.ZOMBIE_INNER_ARMOR,
-                EntityModelLayers.ZOMBIE_OUTER_ARMOR,
-                EntityModelLayers.ZOMBIE_BABY_INNER_ARMOR,
-                EntityModelLayers.ZOMBIE_BABY_OUTER_ARMOR);
+        this(context, EntityModelLayers.HUSK,
+                EntityModelLayers.HUSK_BABY,
+                EntityModelLayers.HUSK_INNER_ARMOR,
+                EntityModelLayers.HUSK_OUTER_ARMOR,
+                EntityModelLayers.HUSK_BABY_INNER_ARMOR,
+                EntityModelLayers.HUSK_BABY_OUTER_ARMOR);
     }
 
     @Override

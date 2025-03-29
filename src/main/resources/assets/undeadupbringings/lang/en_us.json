@@ -1,6 +1,8 @@
 {
   "entity.undeadupbringings.bouldering": "Bouldering",
 
+  "item.undeadupbringings.bouldering_spawn_egg": "Bouldering Spawn Egg",
+
   "subtitles.entity.undeadupbringings.bouldering.ambient" : "Bouldering groans",
   "subtitles.entity.undeadupbringings.bouldering.hurt" : "Bouldering hurts",
   "subtitles.entity.undeadupbringings.bouldering.death" : "Bouldering dies"

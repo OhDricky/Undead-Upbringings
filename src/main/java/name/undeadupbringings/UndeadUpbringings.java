@@ -2,6 +2,8 @@ package name.undeadupbringings;
 
 import name.undeadupbringings.entity.EntityRegistry;
 import name.undeadupbringings.entity.mob.AttributeRegistry;
+import name.undeadupbringings.item.ModItemRegistry;
+import name.undeadupbringings.world.ModEntitySpawns;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,6 +23,8 @@ public class UndeadUpbringings implements ModInitializer {
 		EntityRegistry.initEntityRegistry();
 		AttributeRegistry.initAttributeRegistry();
 		SoundRegistry.initSoundRegistry();
+		ModEntitySpawns.addSpawns();
+		ModItemRegistry.registerItems();
 
 		LOGGER.info("Undead Upbringings initialized! :D");
 	}
